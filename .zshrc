@@ -4,13 +4,14 @@ antigen use oh-my-zsh
 
 # Plugins
 antigen bundle git
+antigen bundle ssh-agent
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-history-substring-search
 antigen bundle zsh-users/zsh-completions
 
 # Theme
-antigen theme robbyrussell
+antigen theme romkatv/powerlevel10k
 
 antigen apply
 
