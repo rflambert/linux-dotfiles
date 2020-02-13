@@ -25,7 +25,7 @@ ZLE_RPROMPT_INDENT=0
 antigen apply
 
 # Aliases
-alias dotfiles="cd ~/.dotfiles"
+alias .f="cd ~/.dotfiles"
 alias zshcfg="vim ~/.zshrc"
 alias vimcfg="vim ~/.vimrc"
 alias /="cd /"
