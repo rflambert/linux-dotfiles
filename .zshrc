@@ -25,19 +25,25 @@ ZLE_RPROMPT_INDENT=0
 antigen apply
 
 # Aliases
+alias splash="clear && neofetch"
 alias .f="cd ~/.dotfiles"
 alias zshcfg="vim ~/.zshrc"
 alias vimcfg="vim ~/.vimrc"
 alias /="cd /"
 alias ~="cd ~"
 alias C:="cd /run/media/ronan/Windows-SSD"
-alias D:="cd /run/media/ronan/Windows-SSD/Media"
+alias D:="cd /media/Windows-SSD/Media"
 alias ..="cd .."
 alias l="k"
 alias la="k -a"
 alias ...="cd ../.."
 alias ....="cd../../.."
 alias .....="cd ../../../.."
+
+# Servers Aliases
+alias ra-server=/media/Windows-SSD/Media/Games/OpenRA/OpenRA-Red-Alert-x86_64.AppImage --server Server.Name="Oce's Server" Server.ListenPort=1234 Server.AdvertiseOnline=True Server.Password=palepine
+alias d2k-server=/media/Windows-SSD/Media/Games/OpenRA/OpenRA-Dune-2000-x86_64.AppImage --server Server.Name="Oce's Server" Server.ListenPort=1234 Server.AdvertiseOnline=True Server.Password=palepine
+alias cnc-server=/media/Windows-SSD/Media/Games/OpenRA/OpenRA-Tiberian-Dawn-x86_64.AppImage --server Server.Name="Oce's Server" Server.ListenPort=1234 Server.AdvertiseOnline=True Server.Password=palepine
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
