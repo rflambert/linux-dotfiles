@@ -41,9 +41,9 @@ alias ....="cd../../.."
 alias .....="cd ../../../.."
 
 # Servers Aliases
-alias ra-server=/media/Windows-SSD/Media/Games/OpenRA/OpenRA-Red-Alert-x86_64.AppImage --server Server.Name="Oce's Server" Server.ListenPort=1234 Server.AdvertiseOnline=True Server.Password=palepine
-alias d2k-server=/media/Windows-SSD/Media/Games/OpenRA/OpenRA-Dune-2000-x86_64.AppImage --server Server.Name="Oce's Server" Server.ListenPort=1234 Server.AdvertiseOnline=True Server.Password=palepine
-alias cnc-server=/media/Windows-SSD/Media/Games/OpenRA/OpenRA-Tiberian-Dawn-x86_64.AppImage --server Server.Name="Oce's Server" Server.ListenPort=1234 Server.AdvertiseOnline=True Server.Password=palepine
+alias ra-server="/media/Windows-SSD/Media/Games/OpenRA/OpenRA-Red-Alert-x86_64.AppImage --server Server.Name=\"Oce's Server\" Server.ListenPort=1234 Server.AdvertiseOnline=True Server.Password=palepine"
+alias d2k-server="/media/Windows-SSD/Media/Games/OpenRA/OpenRA-Dune-2000-x86_64.AppImage --server Server.Name=\"Oce's Server\" Server.ListenPort=1234 Server.AdvertiseOnline=True Server.Password=palepine"
+alias cnc-server="/media/Windows-SSD/Media/Games/OpenRA/OpenRA-Tiberian-Dawn-x86_64.AppImage --server Server.Name=\"Oce's Server\" Server.ListenPort=1234 Server.AdvertiseOnline=True Server.Password=palepine"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
