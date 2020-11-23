@@ -3,7 +3,7 @@ cd ~/.dotfiles || exit
 ln -fns ~/.dotfiles/vimconf/.vimrc ~/.vimrc
 echo "[.vimrc] Linked."
 for item in .*; do
-    if [ "$item" != "." ] && [ "$item" != ".." ] && [ "$item" != ".git" ] && [ "$item" != ".gitmodules" ]; then
+    if [ "$item" != "." ] && [ "$item" != ".." ] && [ "$item" != ".git" ] && [ "$item" != ".gitmodules" ] && [ "$item" != ".gitignore" ]; then
 	ln -ns ~/.dotfiles/$item ~/$item &> /dev/null
         LINKED=$?
 
