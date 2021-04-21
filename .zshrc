@@ -31,22 +31,15 @@ alias zshcfg="vim ~/.zshrc"
 alias vimcfg="vim ~/.vimrc"
 alias /="cd /"
 alias ~="cd ~"
-alias C:="cd /media/ronan/Windows-SSD"
-alias "cd C:"="cd /media/ronan/Windows-SSD"
-alias D:="cd /media/Windows-SSD/Media"
-alias "cd D:"="cd /media/ronan/Windows-SSD/Media"
 alias ..="cd .."
 alias l="k"
 alias la="k -a"
 alias ...="cd ../.."
-alias ....="cd../../.."
+alias ....="cd ../../.."
 alias .....="cd ../../../.."
 
 # Program Start Aliases
 alias terraria-server="/media/Windows-SSD/Media/Games/Terraria/Server/startserver.sh"
-alias openra-ra-serve="/media/Windows-SSD/Media/Games/OpenRA/OpenRA-Red-Alert-x86_64.AppImage --server Server.Name=\"Oce's Server\" Server.ListenPort=1234 Server.AdvertiseOnline=True Server.Password=8008"
-alias openra-d2k-serv="/media/Windows-SSD/Media/Games/OpenRA/OpenRA-Dune-2000-x86_64.AppImage --server Server.Name=\"Oce's Server\" Server.ListenPort=1235 Server.AdvertiseOnline=True Server.Password=8008"
-alias openra-cnc-serv="/media/Windows-SSD/Media/Games/OpenRA/OpenRA-Tiberian-Dawn-x86_64.AppImage --server Server.Name=\"Oce's Server\" Server.ListenPort=1236 Server.AdvertiseOnline=True Server.Password=8008"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
