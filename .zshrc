@@ -38,8 +38,10 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 
+alias ports="lsof -i -P -n"
+
 # Program Start Aliases
-alias terraria-server="/media/Windows-SSD/Media/Games/Terraria/Server/startserver.sh"
+alias dj="python -m django"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
