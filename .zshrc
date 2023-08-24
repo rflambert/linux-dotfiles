@@ -42,6 +42,7 @@ alias .....="cd ../../../.."
 alias ports="lsof -i -P -n"
 alias sshpub="cat ~/.ssh/id_rsa.pub"
 alias files="xdg-open ./"
+alias clip="xsel -ib"
 
 # Program Start Aliases
 alias dj="python -m django"
