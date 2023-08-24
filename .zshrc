@@ -29,6 +29,7 @@ alias splash="clear && neofetch"
 alias .f="cd ~/.dotfiles"
 alias zshcfg="vim ~/.zshrc"
 alias vimcfg="vim ~/.vimrc"
+alias sshcfg="vim ~/.ssh/config"
 alias /="cd /"
 alias ~="cd ~"
 alias ..="cd .."
@@ -39,6 +40,7 @@ alias ....="cd ../../.."
 alias .....="cd ../../../.."
 
 alias ports="lsof -i -P -n"
+alias sshpub="cat ~/.ssh/id_rsa.pub"
 alias files="xdg-open ./"
 
 # Program Start Aliases
