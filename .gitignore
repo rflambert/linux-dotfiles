@@ -3,3 +3,5 @@
 !.vim/bundle/Vundle.vim
 .vim/swap/*
 .vim/undo/*
+.zshrc.custom
+.vimrc.custom

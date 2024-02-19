@@ -5,6 +5,10 @@ Custom configuration files for a Zsh terminal environment and vim setup. Zsh plu
 + zsh
 + vim
 
+The above are the base requisites needed to not run into errors on opening the
+terminal. However, certain functionality might be missing from default aliases
+or scripts installed to /bin due to needing extra software.
+
 ## Installation
 Clone repository including antigen and vimconf into home directory subfolder:
 
