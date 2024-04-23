@@ -43,6 +43,8 @@ alias ports="lsof -i -P -n"
 alias sshpub="cat ~/.ssh/id_rsa.pub"
 alias files="xdg-open ./"
 alias clip="xsel -ib"
+alias gitwip="git add -A && git commit -m 'wip'"
+alias gitunwip="git reset HEAD^"
 
 # Program Start Aliases
 alias dj="python -m django"
