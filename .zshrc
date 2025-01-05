@@ -40,7 +40,7 @@ alias ....="cd ../../.."
 alias .....="cd ../../../.."
 
 alias ports="lsof -i -P -n"
-alias sshpub="cat ~/.ssh/id_rsa.pub"
+alias sshpub="cat ~/.ssh/id_*.pub"
 alias files="xdg-open ./"
 alias clip="xsel -ib"
 alias gitwip="git add -A && git commit -m 'wip'"
