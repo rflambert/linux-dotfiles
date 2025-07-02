@@ -1,9 +1,12 @@
 [submodule "antigen"]
-	path = antigen
+	path = submodules/antigen
 	url = https://github.com/zsh-users/antigen.git
 [submodule ".vim/bundle/Vundle.vim"]
-	path = .vim/bundle/Vundle.vim
+	path = submodules/Vundle.vim
 	url = https://github.com/VundleVim/Vundle.vim.git
 [submodule "vimconf"]
-	path = vimconf
+	path = submodules/vimconf
 	url = https://github.com/timss/vimconf.git
+[submodule "submodules/firefox-gnome-theme"]
+	path = submodules/firefox-gnome-theme
+	url = https://github.com/rafaelmardojai/firefox-gnome-theme.git
